@@ -2,7 +2,7 @@ import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 import express from "express";
 import mongoose from "mongoose";
-import Contorller from "./interface/controller.interface,";
+import Contorller from "./interface/controller.interface";
 import authHandlerMiddleware from "./middleware/auth.middleware";
 import errorHandlerMiddleware from "./middleware/error.middleware";
 

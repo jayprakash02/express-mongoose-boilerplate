@@ -1,5 +1,5 @@
 import { Request, Response, Router } from "express";
-import Contorller from "../interface/controller.interface,";
+import Contorller from "../interface/controller.interface";
 import { IUser, User } from "./user.model";
 import asyncHandler from "express-async-handler";
 import jwt from "jsonwebtoken";
